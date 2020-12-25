@@ -24,8 +24,8 @@ class PostList extends React.Component {
                     <UserHeader userId={post.id} />
                 </div>
             )
-        })
-    }
+        });
+    };
 
     render(){
         return (
